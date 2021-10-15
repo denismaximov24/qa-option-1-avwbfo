@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <listeners>
+        <listener class-name="listeners.Listeners"></listener>
+    </listeners>
+    <parameter name="username" value="standard_user"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="browser" value="Chrome"/>
+    <test thread-count="5" name="qa-option-1-avwbfo">
+        <classes>
+            <class name="pageTest.LoginUserTest">
+                <methods>
+                    <include name="standartUser"/>
+                    <include name="lockedOutUser"/>
+                    <exclude name="problemUser"/>
+                    <include name="perfomanceGlitchUser"/>
+                </methods>
+            </class> <!-- pageTest.LoginUserTest -->
+        </classes>
+    </test> <!-- qa-option-1-avwbfo -->
+</suite> <!-- Default Suite -->
