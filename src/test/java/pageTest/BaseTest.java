@@ -17,8 +17,8 @@ public class BaseTest {
 
     @Parameters({"username", "password","browser"})
     @BeforeMethod
-    public void startUp(String email,String password,String browser) throws NoSuchMethodException {
-        username = email;
+    public void startUp(String username,String password,String browser) throws NoSuchMethodException {
+        this.username = username;
         this.password = password;
         BrowserType browserType;
         if(browser.equals("Chrome")){
