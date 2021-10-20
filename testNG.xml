@@ -13,7 +13,7 @@
                 <methods>
                     <include name="standartUser"/>
                     <include name="lockedOutUser"/>
-                    <exclude name="problemUser"/>
+                    <include name="problemUser"/>
                     <include name="perfomanceGlitchUser"/>
                 </methods>
             </class> <!-- pageTest.LoginUserTest -->

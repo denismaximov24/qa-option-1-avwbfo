@@ -32,11 +32,17 @@ public class MainPage extends BasePage {
         return true;
     }
 
-    public boolean isImageDisplyed(String nameItem) {
-        List<WebElement> list = driver.findElements(By.xpath("[src=\"/static/media/sauce-backpack-1200x1500.34e7aa42.jpg\"]" + nameItem + "']"));
-        return list.size() > 0 && list.get(0).getText().equals(nameItem);
-        //WebElement ImageFile = driver.findElement(By.xpath("//img[contains(@id,'Test Image')]"));
-    }
+    public boolean isImageDisplayed() {
+       // WebElement namePic = driver.findElement(By.xpath("[src=\"/static/media/sauce-backpack-1200x1500.34e7aa42.jpg\"]"));
+       // WebElement ImageFile = driver.findElement(By.xpath("//*[contains(@src,\"backpack\")]"));
+        List<WebElement> list = driver.findElements(By.xpath("//*[contains(@src,\"backpack\")]"));
+        return list.size() > 0; //&& list.get(0).getText().equals();
+            //wait.until(x -> x.findElement(By.xpath("[src=\"/static/media/sauce-backpack-1200x1500.34e7aa42.jpg\"]")));
 
+    }//WebElement ImageFile = driver.findElement(By.xpath("//img[contains(@id,'Test Image')]"));
 }
+
+
+
+
 

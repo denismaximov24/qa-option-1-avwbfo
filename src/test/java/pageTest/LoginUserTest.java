@@ -26,13 +26,13 @@ public class LoginUserTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.open();
         MainPage mainPage = loginPage.logIn("problem_user",password);
-        Assert.assertTrue(mainPage.isCartButton());
+        Assert.assertTrue(mainPage.isImageDisplayed());
     }
     @Test
     public void perfomanceGlitchUser(){
         LoginPage loginPage = new LoginPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn(username,password);
+        MainPage mainPage = loginPage.logIn("performance_glitch_user",password);
         Assert.assertTrue(mainPage.isCartButton());
     }
 }

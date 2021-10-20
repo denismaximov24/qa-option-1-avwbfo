@@ -31,10 +31,18 @@ public class BaseTest {
     }
 
     @AfterMethod
+
     public void tearDown(ITestResult iTestResult){
         if(iTestResult.getStatus()==iTestResult.FAILURE){
             GetScreenShot.capture(driver,iTestResult.getName());
+        }else{
+            String sMethodName = "result";
+            Long lExecutionTime;
+            sMethodName = iTestResult.getMethod().getMethodName().toString();
+            lExecutionTime = (iTestResult.getEndMillis() - iTestResult.getStartMillis()) / 1000;
+            System.out.println(sMethodName + " execution Time is : " + lExecutionTime + "sec.");
         }
         driver.quit();
     }
+
 }
