@@ -26,7 +26,7 @@ public class LoginUserTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.open();
         MainPage mainPage = loginPage.logIn("problem_user",password);
-        Assert.assertTrue(mainPage.isImageDisplayed());
+        Assert.assertFalse(mainPage.isImageDisplayed());
     }
     @Test
     public void perfomanceGlitchUser(){

@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92738ac7-29f8-4786-ad0f-e3428ffbf31a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/problemUser.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageTest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageTest/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageTest/LoginUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/LoginUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/LoginUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634336131138</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1634717798072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634717798072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
